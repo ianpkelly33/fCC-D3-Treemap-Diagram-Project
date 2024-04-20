@@ -1,0 +1,56 @@
+* {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.main {
+    text-align: center;
+}
+
+a {
+    color: darkgray;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a:hover {
+    color: darkgray;
+}
+
+#description {
+    padding-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font: 10px Arial;
+}
+
+.tile-text {
+    user-select: none;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    font: 12px Arial;
+    background: #FFFFCCD9;
+    box-shadow: 1px 1px 10px #80808099;
+    border: 0;
+    border-radius: 2px;
+    color: black;
+}
+
+#legend {
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+h1, h2, svg, #legend {
+    margin-top: 20px;
+}
